@@ -1,0 +1,151 @@
+@keyframes loader-wordpress {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  66% {
+    width: 52%;
+  }
+  70% {
+    width: 70%;
+  }
+}
+
+@keyframes loader-woocommerce {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  56% {
+    width: 50%;
+  }
+  60% {
+    width: 60%;
+  }
+}
+
+@keyframes loader-html-css {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  25% {
+    width: 24%;
+  }
+  43% {
+    width: 41%;
+  }
+  50% {
+    width: 50%;
+  }
+}
+
+@keyframes loader-javascript {
+  0% {
+    width: 0;
+  }
+  20% {
+    width: 10%;
+  }
+  20% {
+    width: 20%;
+  }
+}
+
+@keyframes loader-react {
+  0% {
+    width: 0;
+  }
+  10% {
+    width: 10%;
+  }
+}
+
+.progress-bar {
+  border-radius: 0px;
+  overflow: hidden;
+  width: 100%;
+}
+.progress-bar span {
+  display: block;
+}
+
+.bar {
+  background: rgba(0, 0, 0, 0.0);
+	color: white;
+}
+
+.progress-wordpress {
+  -webkit-animation: loader-wordpress 3s ease;
+          animation: loader-wordpress 3s ease;
+  background: linear-gradient(87deg, rgba(255,73,73,1) 0%, rgba(253,184,45,1) 100%);
+  color: #fff;
+  padding: 10px;
+	margin-bottom: 5px;
+  width: 70%;
+}
+
+.progress-woocommerce {
+  -webkit-animation: loader-woocommerce 3s ease;
+          animation: loader-woocommerce 3s ease;
+  background: linear-gradient(87deg, rgba(255,73,73,1) 0%, rgba(253,184,45,1) 100%);
+  color: #fff;
+  padding: 10px;
+	margin-bottom: 5px;
+  width: 60%;
+}
+
+.progress-html-css {
+  -webkit-animation: loader-html-css 3s ease;
+          animation: loader-html-css 3s ease;
+  background: linear-gradient(87deg, rgba(255,73,73,1) 0%, rgba(253,184,45,1) 100%);
+  color: #fff;
+  padding: 10px;
+	margin-bottom: 5px;
+  width: 50%;
+}
+
+.progress-javascript {
+  -webkit-animation: loader-javascript 3s ease;
+          animation: loader-javascript 3s ease;
+  background: linear-gradient(87deg, rgba(255,73,73,1) 0%, rgba(253,184,45,1) 100%);
+  color: #fff;
+  padding: 10px;
+	margin-bottom: 5px;
+  width: 20%;
+}
+
+.progress-react {
+  -webkit-animation: loader-react 3s ease;
+          animation: loader-react 3s ease;
+  background: linear-gradient(87deg, rgba(255,73,73,1) 0%, rgba(253,184,45,1) 100%);
+  color: #fff;
+  padding: 10px;
+	margin-bottom: 5px;
+  width: 10%;
+}
+
+.progress-bar {
+  transform: translate3d(0%, 0%, 0);
+}

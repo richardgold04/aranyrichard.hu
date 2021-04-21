@@ -1,0 +1,11 @@
+const jobs = [
+	{"id": 1,"date": "2021 - ", "role": "Web Developer", "company": "Nemzeti Szakképzési és Felnőttképzési Hivatal (NSZFH)", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."},
+	{"id": 2,"date": "2020 - 2021", "role": "Freelance Web Developer", "company": "AR Digital", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."},
+	{"id": 3,"date": "2019 - 2020", "role": "Startup Project Coordinator", "company": "Playsic - The Social Music App", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."},
+	{"id": 4,"date": "2017 - 2019", "role": "Freelance Web Developer", "company": "AR Digital", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."},
+	{"id": 5,"date": "2016 - 2017", "role": "Web Developer", "company": "Kompel Kft.", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."},
+	{"id": 6,"date": "2015 - 2016", "role": "Influencer Campaign Manager", "company": "BeBrand Influencer Marketing Agency", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."},
+	{"id": 7,"date": "2013 - 2015", "role": "Digital Project Manager", "company": "Demera Kft.", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit nisi vitae feugiat vestibulum. Aliquam porta nulla vel odio scelerisque, pretium volutpat dui euismod."}
+]
+
+export default jobs;
