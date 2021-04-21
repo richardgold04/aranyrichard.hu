@@ -4,42 +4,42 @@ import "./Socialicons.css";
 function Socialicons() {
   return (
     <div>
-      <div class="footer-social-icons">
-        <ul class="social-icons">
+      <div className="footer-social-icons">
+        <ul className="social-icons">
           <li>
-            <a href="" class="social-icon">
+            <a href="" className="social-icon">
               {" "}
-              <i class="fa fa-facebook"></i>
+              <i className="fa fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="" class="social-icon">
+            <a href="" className="social-icon">
               {" "}
-              <i class="fa fa-twitter"></i>
+              <i className="fa fa-twitter"></i>
             </a>
           </li>
           <li>
-            <a href="" class="social-icon">
+            <a href="" className="social-icon">
               {" "}
-              <i class="fa fa-rss"></i>
+              <i className="fa fa-rss"></i>
             </a>
           </li>
           <li>
-            <a href="" class="social-icon">
+            <a href="" className="social-icon">
               {" "}
-              <i class="fa fa-youtube"></i>
+              <i className="fa fa-youtube"></i>
             </a>
           </li>
           <li>
-            <a href="" class="social-icon">
+            <a href="" className="social-icon">
               {" "}
-              <i class="fa fa-linkedin"></i>
+              <i className="fa fa-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="" class="social-icon">
+            <a href="" className="social-icon">
               {" "}
-              <i class="fa fa-github"></i>
+              <i className="fa fa-github"></i>
             </a>
           </li>
         </ul>
