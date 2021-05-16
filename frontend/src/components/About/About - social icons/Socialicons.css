@@ -1,0 +1,89 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+		padding-left: 0px;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    padding-top: 15px;
+		padding-left: 0px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 6px 10px 0px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: #ffffff;
+}
+.fa-facebook:hover {
+    color: #3d5b99;
+}
+.fa-wordpress {
+    padding:10px 6px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: #ffffff;
+}
+.fa-wordpress:hover {
+    color: #007095;
+}
+
+.fa-linkedin {
+    padding:10px 6px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: #ffffff;
+}
+.fa-linkedin:hover {
+    color: #0073a4;
+}
+.fa-github {
+    padding:10px 6px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: #ffffff;
+}
+.fa-github:hover {
+    color: #5a32a3;
+}
+
+@media (max-width: 1200px) {
+
+	ul.social-icons {
+    padding-top: 15px;
+		padding-left: 50px;
+		text-align: center;
+}
+	
+}
+
+@media (max-width: 500px) {
+
+	ul.social-icons {
+		padding-left: 0px;
+}
+}

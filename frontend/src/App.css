@@ -1,3 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 body{
 	background-color: rgb(14, 14, 14);
 	font-family: 'Poppins', sans-serif;
@@ -8,10 +18,11 @@ p{
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 35px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .hero-container{
-	background: linear-gradient(87deg, #251170b3 0%, rgba(8, 8, 8, 0.7) 100%);
+	background: linear-gradient(87deg, #251170b3 0%, rgba(8, 8, 8, 0.8) 100%), url("https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 	background-size: cover;
 	min-height: 100vh;
 	background-color: rgb(14, 14, 14);
@@ -31,8 +42,9 @@ p{
 }
 
 .hero-h1-text{
+	text-align: center;
 	color: white;
-	font-size: 56px;
+	font-size: 76px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 4px #FFFFFF;
 	margin-block-start: 0em;
@@ -44,6 +56,9 @@ p{
 	text-transform: uppercase;
 	text-shadow: 1px 1px 4px #FFFFFF;
 	margin-block-start: 0em;
+	background-color: #000;
+	padding: 0px 20px 0px 20px;
+	box-shadow: 0px 0px 5px 3px rgba(255,255,255,1);
 }
 
 .hero-h4-text{
@@ -70,11 +85,12 @@ p{
 	text-shadow: 1px 1px 2px #FFFFFF;
 	font-weight: 600;
 	font-size: 20px;
+	font-family: 'Poppins', sans-serif;
 	box-shadow: 0px 0px 2px 1px rgba(255,255,255,0.8);
 }
 
 .hero-btn:hover{
-	background: linear-gradient(87deg, rgba(255,73,73,1) 0%, rgba(253,184,45,1) 100%);
+	background-color: #4e2ec2;
 	box-shadow: none;
 	text-shadow: none;
 	cursor: pointer;
@@ -83,8 +99,8 @@ p{
 .about-inner-container{
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	margin: 50px;
-	
 }
 
 .about-inner-right-container{
@@ -95,17 +111,19 @@ p{
 
 .about-inner-left-container{
 	background-color: rgb(41, 41, 41);
-	width: 50vw;
+	width: 20vw;
 	padding: 50px 50px 50px 50px;
 }
 
 .about-h4-text{
+	text-align: center;
 	color: white;
-	font-size: 36px;
+	font-size: 56px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 4px #FFFFFF;
 	margin-block-start: 0em;
 	font-style: italic;
+	
 }
 
 .about-skillname-value{
@@ -126,6 +144,7 @@ p{
 	font-style: italic;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	
 }
 
 .me-img{
@@ -137,23 +156,34 @@ p{
 }
 
 .experience-inner-container{
-	display: flex;
-	justify-content: center;
-	margin: 50px;
-	
-}
-.experience-inner-left-container{
-	background: linear-gradient(87deg, #251170b3 0%, rgba(0, 0, 0, 0.7) 100%);
-	width: 100vw;
+	margin-bottom: 50px;
 	padding: 50px 50px 50px 50px;
 }
 
+.Jobs-job{
+	margin-bottom: 40px;
+	background: linear-gradient(87deg, #391BA7 0%, rgba(0, 0, 0, 0.7) 100%);
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px 3px rgba(255,255,255,0.8);
+	padding: 10px 0px 10px 30px;
+}
+
+.Schools-job{
+	margin-bottom: 40px;
+	background: linear-gradient(87deg, #138080 0%, rgba(0, 0, 0, 0.7) 100%);
+	border-radius: 20px;
+	box-shadow: 0px 0px 2px 3px rgba(255,255,255,0.8);
+	padding: 10px 0px 10px 30px;
+}
+
 .experience-h4-text{
+	text-align: center;
 	color: white;
-	font-size: 36px;
+	font-size: 56px;
 	text-transform: uppercase;
 	text-shadow: 1px 1px 4px #FFFFFF;
 	margin-block-start: 0em;
+	margin-block-end: 0em;
 	font-style: italic;
 }
 
@@ -174,8 +204,8 @@ p{
 }
 
 .company-text{
-	font-size: 20px;
-	font-weight: 400;
+	font-size: 15px;
+	font-weight: 300;
 	text-transform: uppercase;
 	margin-block-start: 0em;
 }
@@ -185,4 +215,324 @@ p{
 	width: 150px;
 	height: 5px;
 	margin-top: 50px;
+}
+
+.portfolio-container{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+.reference-name-container{
+	text-align: center;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-radius: 5px;
+	margin-bottom: 80px;
+	cursor: pointer;
+	box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.reference-name-text{
+	font-size: 20px;
+	margin: 20px 0px 20px 0px;
+	margin-block-start: 0em;
+}
+
+.reference-platform-text{
+	font-weight: 300;
+	font-size: 18px;
+	font-style: italic;
+}
+
+.reference-desc-text{
+	font-size: 14px;
+	color: #fff;
+	text-transform: none;
+	line-height: 20px;
+}
+
+.portfolio-h4-text{
+	text-align: center;
+	color: white;
+	font-size: 56px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px #FFFFFF;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	font-style: italic;
+	margin-left: 50px;
+	padding-top: 40px;
+}
+
+
+.skill-inner-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.skills-container{
+	background: linear-gradient(87deg, #0e0035cc 0%, rgba(8, 8, 8, 0.808) 100%), url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+	text-align: center;
+	padding-top: 30px;
+	background-position: center;
+}
+
+.skill-h4-text{
+	color: white;
+	font-size: 36px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px #FFFFFF;
+	margin-block-end: 0em;
+	margin-block-start: 0em;
+	font-style: italic;
+}
+
+.contact-container{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: 0px 50px 50px 50px;
+}
+
+.contact-image{
+	width: 150px;
+}
+
+.contact-image-container{
+	min-height: 150px;
+}
+
+.contact-inner-container{
+	min-width: 400px;
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	background-color: #391ba7;
+	margin: 70px 30px 0px 30px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.contact-text{
+	font-size: 24px;
+	font-weight: 500;
+	text-shadow: 1px 1px 3px #FFFFFF;
+	font-style: italic;
+}
+
+.footer-main-container{
+	background: url("https://aranyrichard.hu/wp-content/uploads/2021/05/layered-waves-haikei-3.svg");
+	background-position: center;
+	background-size: cover;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-text{
+	color: white;
+	font-size: 46px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px #FFFFFF;
+	margin-block-end: 0em;
+	margin-top: 300px;
+	font-style: italic;
+	background-color: #000;
+	padding: 0px 20px 0px 20px;
+}
+
+.footer-subtext{
+	margin-top: 180px;
+	font-size: 22px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px #FFFFFF;
+}
+
+#experience-radio{
+	margin-bottom: 50px;
+	margin-left: 0px;
+}
+
+.contact-h4-text{
+	text-align: center;
+	color: white;
+	font-size: 56px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 4px #FFFFFF;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
+	font-style: italic;
+	margin-top: 100px;
+}
+
+@media (max-width: 1500px) {
+
+	.contact-inner-container{
+		margin-top: 70px;
+	}
+	
+}
+
+@media (max-width: 1200px) {
+	.about-inner-right-container{
+		width: 100%;
+	}
+	
+	.about-inner-left-container{
+		width: 100%;
+	}
+
+	.hero-logo-container{
+		margin-top: 150px;
+	}
+
+	.contact-inner-container{
+		margin-top: 70px;
+	}
+
+	.contact-container{
+		margin-top: 0px;
+	}
+
+	.footer-text{
+		font-size: 36px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.hero-btn{
+		width: 300px;
+	}
+}
+
+@media (max-width: 800px) {
+	#experience-radio{
+		margin-left: 50px;
+	}
+
+	.logo{
+		width: 300px;
+	}
+
+	.footer-text{
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 600px) {
+	.about-inner-container{
+		margin: 50px 0px 50px 0px;
+	}
+
+	.skill-h4-text{
+		font-size: 24px;
+	}
+
+	.skill{
+		margin: 20px 20px 20px 20px !important;
+	}
+
+	.portfolio-h4-text{
+		font-size: 24px;
+	}
+
+	.experience-h4-text{
+		font-size: 24px;
+	}
+
+	.about-h4-text{
+		font-size: 24px;
+	}
+
+	.footer-main-container{
+		height: 300px;
+	}
+
+	.footer-text{
+		font-size: 18px;
+		text-align: center;
+	}
+
+	.footer-subtext{
+		text-align: center;
+		font-size: 18px;
+		margin-top: 50px;
+		margin-bottom: 150px;
+	}
+
+}
+
+@media (max-width: 450px) {
+	.contact-image{
+		width: 80px;
+	}
+
+	.contact-image-container{
+		min-height: 0px;
+	}
+
+	.contact-text{
+		font-size: 14px;
+	}
+
+	.contact-inner-container{
+		min-width: 250px;
+	}
+
+	.about-p-text{
+		margin: 20px;
+	}
+
+	.about-h4-text{
+		margin-left: 40px;
+	}
+
+	.me-img{
+		width: 200px;
+	}
+
+	.logo{
+		width: 200px;
+	}
+
+	.hero-logo-container{
+		margin-bottom: 30px;
+		margin-top: 80px;
+	}
+
+	.hero-h4-text{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.hero-h1-text{
+		font-size: 26px;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.hero-h3-text{
+		font-size: 16px;
+		text-align: center;
+		padding: 0px 10px;
+	}
+
+	.hero-btn{
+		width: 200px;
+		margin-top: 30px;
+	}
+
+	.hero-container{
+		min-height: 0vh;
+	}
+
+	.reference-desc-text{
+		display: none;
+	}
 }
