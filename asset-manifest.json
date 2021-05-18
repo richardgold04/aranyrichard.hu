@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/aranyrichard.hu/static/css/main.4ce5fe57.chunk.css",
+    "main.css": "/aranyrichard.hu/static/css/main.140b9072.chunk.css",
     "main.js": "/aranyrichard.hu/static/js/main.dc716b0e.chunk.js",
     "main.js.map": "/aranyrichard.hu/static/js/main.dc716b0e.chunk.js.map",
     "runtime-main.js": "/aranyrichard.hu/static/js/runtime-main.97c13449.js",
@@ -10,14 +10,14 @@
     "static/js/3.968ed90b.chunk.js": "/aranyrichard.hu/static/js/3.968ed90b.chunk.js",
     "static/js/3.968ed90b.chunk.js.map": "/aranyrichard.hu/static/js/3.968ed90b.chunk.js.map",
     "index.html": "/aranyrichard.hu/index.html",
-    "static/css/main.4ce5fe57.chunk.css.map": "/aranyrichard.hu/static/css/main.4ce5fe57.chunk.css.map",
+    "static/css/main.140b9072.chunk.css.map": "/aranyrichard.hu/static/css/main.140b9072.chunk.css.map",
     "static/js/2.852de0f1.chunk.js.LICENSE.txt": "/aranyrichard.hu/static/js/2.852de0f1.chunk.js.LICENSE.txt",
     "static/media/me.dbf0a2e3.png": "/aranyrichard.hu/static/media/me.dbf0a2e3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.97c13449.js",
     "static/js/2.852de0f1.chunk.js",
-    "static/css/main.4ce5fe57.chunk.css",
+    "static/css/main.140b9072.chunk.css",
     "static/js/main.dc716b0e.chunk.js"
   ]
 }
