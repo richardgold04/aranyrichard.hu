@@ -264,7 +264,6 @@ p{
 	margin-block-start: 0em;
 	margin-block-end: 0em;
 	font-style: italic;
-	margin-left: 50px;
 	padding-top: 40px;
 }
 
@@ -469,6 +468,10 @@ p{
 }
 
 @media (max-width: 450px) {
+
+	.portfolio-h4-text{
+		margin-left: 0;
+	}
 	.contact-image{
 		width: 80px;
 	}
@@ -485,12 +488,16 @@ p{
 		min-width: 250px;
 	}
 
+	.contact-h4-text{
+		font-size: 22px;
+	}
+
 	.about-p-text{
 		margin: 20px;
 	}
 
 	.about-h4-text{
-		margin-left: 40px;
+		margin-top: 40px;
 	}
 
 	.me-img{
@@ -521,6 +528,8 @@ p{
 		font-size: 16px;
 		text-align: center;
 		padding: 0px 10px;
+		background-color: rgba(0, 0, 0, 0);
+		box-shadow: none;
 	}
 
 	.hero-btn{
@@ -534,5 +543,21 @@ p{
 
 	.reference-desc-text{
 		display: none;
+	}
+	.about-inner-left-container{
+		padding: 0px;
+	}
+
+	.footer-text{
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.footer-subtext{
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 350px) {
+	html{
+		width: 350px;
 	}
 }

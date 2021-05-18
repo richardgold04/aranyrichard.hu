@@ -63,3 +63,9 @@
 		margin-top: 15px;
 	}
 }
+
+@media (max-width: 800px) {
+.toggle input + label {
+	margin-right: 0px;
+}
+}
